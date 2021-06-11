@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Roboto-Google';
+    src: url('../../fonts/Roboto-Regular.ttf');
+}
+
+.box-title {
+    font-family: 'Roboto-Google', sans-serif !important;
+    z-index: auto;
+}
+
+.box-header .box-title {
+    display: inline-block;
+    margin: 0;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.subtitle {
+    display: block;
+    margin-top: 8px;
+    font-size: 65%;
+    font-weight: 400;
+}
+
+.box {
+    font-family: 'Roboto-Google', sans-serif !important;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 0px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+}
+
+.box.box-primary {
+    border-top-color: #ff8728;
+}
+
+.skin-blue .main-header .navbar {
+    background-color: #b6601b;
+}
+
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #cb6a1e;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #e67824;
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #cb6a1e;
+}
+
+.btn-circle {
+    text-align: center;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-radius: 50%;
+    -webkit-mask-image: none;
+    cursor: pointer;
+    transform: translateZ(0);
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    transition: .3s ease-out;
+    padding: 0;
+    margin-bottom: 5px !important;
+    outline: none;
+}
+
+.btn {
+    border-radius: 5px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+    line-height: inherit;
+    padding: 8px 16px;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    overflow: hidden;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    transition: .3s ease-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.btn-new:active:focus,
+.btn-new:focus {
+    box-shadow: 0 3px 5px 1px rgb(0 0 0 / 5%);
+    outline: none;
+    color: #fff;
+}
+
+.btn-new:hover {
+    opacity: 0.6;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.btn-circle:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.cliente-titulo {
+    color: #777777;
+}
+
+.line-height-default {
+    line-height: 1.9 !important;
+}
+
+.icone-fa-left {
+    margin-left: 3px;
+}
+
+.icone-fa-right {
+    margin-right: 3px;
+}
+
+.obrigatorio {
+    color: rgb(255, 0, 0);
+    font-weight: 800;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.p-filtros {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.td-id {
+    width: 100px;
+    text-align: center;
+}
+
+.td-status {
+    width: 150px;
+    text-align: center;
+}
+
+.td-acoes {
+    width: 180px;
+    text-align: center;
+}
+
+.btn-pesquisar-label {
+    margin-top: 25px;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+
+/*botão que "escolher arqvuivo" personalizado*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.customFileInput input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.customFileInput .button,
+.customFileInput .fileName {
+    float: left;
+    cursor: pointer;
+    font-size: 0.9em;
+    line-height: 30px;
+    padding: 0 15px;
+}
+
+.hr-gradient-cadastros {
+    border: 1px;
+    height: 1px;
+    margin: 0px;
+    background-image: linear-gradient(to right, rgb(155, 155, 155), transparent);  
+}
+
+.title-endereco-cadastro-cliente {
+    font-size: 20px;
+    margin: 10px;
+    color: #505050;
+    font-weight: 500;
+    margin: 10px 10px 5px 0px;
+}
+
+.box-hr-cadastro-clientes{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}

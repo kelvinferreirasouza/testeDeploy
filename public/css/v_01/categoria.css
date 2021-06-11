@@ -1,0 +1,24 @@
+.galeria-veiculo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border: solid 1px #f1f1f2;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.galeria-veiculo .a-galeria {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.label-checkbox {
+    margin-bottom: 0;
+    padding-top: 4px;
+}
+
+.ipt-sel {
+    width: 16px;
+    height: 16px;
+}
